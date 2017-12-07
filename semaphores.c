@@ -6,7 +6,7 @@
 #include <errno.h>
 #include <stdlib.h>
 
-#define KEY 124239
+#define KEY 1242392
 
 int set_semaphore(int id, int val){
   return semctl(id, 0, SETVAL, val);
